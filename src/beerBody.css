@@ -1,0 +1,68 @@
+.body {
+  background-color: #222;
+  margin-top: 0;
+}
+
+.bodyBeer {
+  height: 300px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: white;
+}
+
+h3 {
+  margin: 10px 5px;
+}
+
+.media {
+  width: 30%;
+}
+.info {
+  width: 55%;
+}
+
+img {
+  height: 200px;
+}
+
+.card {
+  height: 380px;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  background-color: #eee;
+}
+.cardMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.text {
+  display: block;
+  overflow: hidden;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  height: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+}
+
+.liked {
+  color: green;
+}
